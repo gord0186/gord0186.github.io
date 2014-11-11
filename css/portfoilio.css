@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+img{
+	display:block;
+	width:100%;
+}
+
+.card{
+	margin:0;
+	position:relative;
+	overflow:hidden;
+	animation: slide-up 2000ms linear;
+	/*
+	-ms-animation
+	-moz-animation
+	-o-animation
+	*/
+	-webkit-animation: slide-up 2000ms linear;
+}
+
+.card__text{
+	background-color: rgba(0,0,0,.3);
+	background-size:cover;
+	color:#fff;
+	position:absolute;
+	bottom:-4em;
+	width:100%;
+	padding:1em;
+	opacity:0;
+	transition: all 250ms linear;
+}
+
+.card:hover .card__text{
+	opacity:1;
+	bottom:0;
+}
+
+
+

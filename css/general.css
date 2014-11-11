@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family:
+}
+img{
+	display:block;
+}
+
+.text-pad{
+	padding:.5rem;
+}
+
+/* header*/
+
+.nav{
+	text-align:center;
+}
+
+.nav li{
+	display:inline-block;
+	padding:1rem;
+}
+
+.nav li:before{
+	content:none;
+	color:#FFF;
+	position:absolute;
+	left:-1.3em;
+}
+
+.no-bottom,
+.no-bottom: link{
+	color:none;
+	text-decoration:none;
+	border-bottom:none;
+	transition: none;
+}
+.nav{
+	margin:auto;
+}
+
+.main{
+	background:transparent url( http://placehold.it/2000x1000 ) no-repeat center;
+	background-size:cover;
+	padding-bottom:3rem;
+}
+
+.logo{
+	margin:auto;
+	width:30%;
+}
+/* quote */
+
+
+.quote{
+	font-size:36px;
+}
+
+
+/*portfolio*/
+
+#portfolio{
+	background-color:grey;
+}
+
+
+/*About*/
+
+#about{
+}
+.me{
+	width:100%;
+}
+/*Contact*/
+
+#Contact{
+	margin:
+}
+
+.text-area{
+	width:90%;
+	height: 2rem;
+}
+
+.content{
+	height:6rem;
+}
+/*footer*/
+
+.icon img{
+	display:inline-block;
+}
+
+.icon{
+	margin:0 auto;
+}
