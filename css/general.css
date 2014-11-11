@@ -20,6 +20,7 @@ img{
 
 .nav{
 	text-align:center;
+	padding:
 }
 
 .nav li{
@@ -62,11 +63,22 @@ img{
 	font-size:36px;
 }
 
+@media only screen and (min-width: 30em) {
+	.qoute{
+		font-size:90px;
+	}
+}
+
+@media only screen and (min-width: 50em) {
+	.qoute{
+		font-size:150px;
+	}
+}
+
 
 /*portfolio*/
 
 #portfolio{
-	background-color:grey;
 }
 
 
@@ -76,6 +88,11 @@ img{
 }
 .me{
 	width:100%;
+	background: no-repeat center url(../images/303346_468770679857795_1263383188_n.jpg);
+	background-size:cover;
+	height:20rem;
+	width:100%;
+	display:inline-block;
 }
 /*Contact*/
 
@@ -98,5 +115,10 @@ img{
 }
 
 .icon{
-	margin:0 auto;
+	margin:auto 0;
 }
+
+.icon-symbol{
+	width:5rem;
+}
+

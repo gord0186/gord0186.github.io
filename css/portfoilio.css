@@ -1,6 +1,24 @@
 @charset "UTF-8";
 
 img{
+	Width:100%;
+	margin:0;
+	padding:0;
+		
+}
+
+.no-pad, figure{
+	padding:0;
+	margin:0;
+}
+
+.card__text{
+	padding:2%;
+}
+
+@media only screen and (min-width: 50em) {
+
+img{
 	display:block;
 	width:100%;
 }
@@ -19,12 +37,11 @@ img{
 }
 
 .card__text{
-	background-color: rgba(0,0,0,.3);
+	background-color: #FFFFFF;
 	background-size:cover;
-	color:#fff;
 	position:absolute;
 	bottom:-4em;
-	width:100%;
+	width:95%;
 	padding:1em;
 	opacity:0;
 	transition: all 250ms linear;
@@ -35,5 +52,5 @@ img{
 	bottom:0;
 }
 
-
+}
 
