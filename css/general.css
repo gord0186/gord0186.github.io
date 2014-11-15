@@ -106,6 +106,10 @@ img{
 	width:100%;
 	display:inline-block;
 }
+
+.grayscale {
+	filter: Grayscale(100%);
+}
 /*Contact*/
 
 #Contact{
