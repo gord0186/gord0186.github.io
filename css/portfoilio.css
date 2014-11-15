@@ -28,11 +28,11 @@ img{
 	position:relative;
 	overflow:hidden;
 	animation: slide-up 2000ms linear;
-	/*
-	-ms-animation
-	-moz-animation
-	-o-animation
-	*/
+	
+	-ms-animation:slide-up 2000ms linear;
+	-moz-animation:slide-up 2000ms linear;
+	-o-animation:slide-up 2000ms linear;
+	
 	-webkit-animation: slide-up 2000ms linear;
 }
 
@@ -54,3 +54,8 @@ img{
 
 }
 
+.img h3{
+	background: center no-repeat url(http://placehold.it/1000x500) #A9A9A9 ;
+	height:15rem;
+	width:100%;
+}

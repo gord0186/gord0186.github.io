@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 html{
+	max-width:1000px;
+	margin:auto;
 }
 
 body{
@@ -56,31 +58,42 @@ img{
 	margin:auto;
 	width:30%;
 }
+
+.centre{
+	text-align:center;
+}
+
+
+
+@media only screen and (min-width: 50em) {
+	.logo{
+		width:15rem;
+	}
+	
+	@
+}
 /* quote */
 
 
 .quote{
-	font-size:36px;
+	font-size:60px;
+	font-weight:lighter;
+	color:#152428;
 }
-
-@media only screen and (min-width: 30em) {
-	.qoute{
-		font-size:90px;
-	}
+.quote strong{
+	font-weight:bold;
+	color:#206671;
+	
 }
-
-@media only screen and (min-width: 50em) {
-	.qoute{
-		font-size:150px;
-	}
-}
-
 
 /*portfolio*/
 
 #portfolio{
 }
 
+.tittle{
+	color:#152428;
+}
 /*About*/
 
 #about{
