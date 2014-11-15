@@ -107,8 +107,8 @@ img{
 	display:inline-block;
 }
 
-.grayscale {
-	filter: Grayscale(100%);
+img{
+	filter:grayscale(0%);
 }
 /*Contact*/
 
