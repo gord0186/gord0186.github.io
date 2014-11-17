@@ -20,14 +20,19 @@ img{
 
 /* header*/
 
+
+
+@media only screen and (min-width: 17em){
 .nav{
 	text-align:center;
-	padding:
+    font-size: 1.2656rem;
+    line-height: 1.1852;
 }
 
+}
 .nav li{
 	display:inline-block;
-	padding:1rem;
+	padding:2%;
 }
 
 .nav li:before{
@@ -74,11 +79,18 @@ img{
 }
 /* quote */
 
-
 .quote{
-	font-size:60px;
+	font-size:48px;
 	font-weight:lighter;
 	color:#152428;
+}
+
+@media only screen and (min-width: 20em){
+	.quote{
+		font-size:60px;
+		font-weight:lighter;
+		color:#152428;
+	}
 }
 .quote strong{
 	font-weight:bold;
