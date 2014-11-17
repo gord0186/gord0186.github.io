@@ -8,8 +8,8 @@ html{
 body{
 	margin:0;
 	padding:0;
-	font-family:
 }
+
 img{
 	display:block;
 }
@@ -43,7 +43,7 @@ img{
 }
 
 .no-bottom,
-.no-bottom: link{
+.no-bottom, link{
 	color:none;
 	text-decoration:none;
 	border-bottom:none;
@@ -62,6 +62,7 @@ img{
 .logo{
 	margin:auto;
 	width:30%;
+	animation:
 }
 
 .centre{
@@ -147,6 +148,10 @@ img{
 }
 
 .icon-symbol{
-	width:5rem;
+	width:20%;
 }
-
+@media only screen and (min-width: 22em){
+	.icon-symbol{
+		width:5rem;
+	}
+}
