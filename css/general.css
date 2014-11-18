@@ -107,9 +107,12 @@ img{
 }
 /*About*/
 
-#about{
-	
-	
+#about{	
+}
+
+.about__content{
+	max-width:750px;
+	margin:auto;
 }
 .me{
 	width:100%;
