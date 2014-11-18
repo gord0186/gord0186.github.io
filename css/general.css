@@ -131,7 +131,7 @@ img{
 .back{
 	background-color:rgba(0,0,0,0.50);
 	text-align:center;
-	display:block;
+	display:inline;
 }
 .text-area{
 	width:90%;
