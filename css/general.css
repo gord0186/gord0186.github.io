@@ -33,6 +33,7 @@ img{
 .nav li{
 	display:inline-block;
 	padding:2%;
+	float:right;
 }
 
 .nav li:before{
@@ -50,6 +51,10 @@ img{
 }
 .nav{
 	margin:auto;
+	background:rgba(0,0,0,.80);
+	position:fixed;
+	width:100%;
+	overflow:hidden;
 }
 
 .main{
@@ -61,6 +66,17 @@ img{
 .logo{
 	margin:auto;
 	width:30%;
+	padding-top:4rem;
+}
+
+.small-logo{
+	width:3rem;
+	display:inline;
+	border-bottom:none;
+	float:left;
+	padding-top:.5rem;
+	margin:auto;
+	
 }
 
 .centre{
@@ -124,8 +140,9 @@ img{
 }
 
 /*Contact*/
+
 #contact{
-	background:rgba(32,102,116,1);
+	background:rgba(32,102,116,);
 }
 
 #contact div, .send-btn{
