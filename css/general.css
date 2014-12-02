@@ -124,23 +124,35 @@ img{
 }
 
 /*Contact*/
-
-#Contact{
+#contact{
+	background:rgba(32,102,116,1);
 }
 
-.back{
-	background-color:rgba(0,0,0,0.50);
-	text-align:center;
-	display:inline;
-}
-.text-area{
-	width:90%;
-	height: 2rem;
+#contact div, .send-btn{
+	max-width:750px;
+	margin:auto;
+	padding:0 .5rem;
 }
 
-.content{
-	height:6rem;
+.message textarea{
+	height:10rem;
+	width:100%;
 }
+
+input{
+	height:1.5rem;
+	width:100%;	
+}
+
+.send-btn input{
+	border:none;
+	display:block;
+	background:none;
+	font-size:2.5rem;
+	font-weight:100;
+	height:5rem;
+}
+
 /*footer*/
 
 .icon img{
