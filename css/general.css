@@ -61,9 +61,10 @@ nav{
 }
 
 .main{
-	background:transparent url( http://placehold.it/2000x1000 ) no-repeat center;
+	background:transparent url(../images/wood) no-repeat center;
 	background-size:cover;
 	padding-bottom:3rem;
+	box-shadow: 0 0 10px #000000; 
 }
 
 .logo{
@@ -125,6 +126,8 @@ nav{
 .tittle{
 	color:#152428;
 }
+
+
 /*About*/
 
 #about{	
