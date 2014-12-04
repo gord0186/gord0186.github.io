@@ -57,7 +57,6 @@ nav{
 	position:fixed;
 	overflow:inherit;
 	width:100%;
-
 }
 
 .main{
@@ -121,6 +120,7 @@ nav{
 /*portfolio*/
 
 #portfolio{
+	z-index:50%;
 }
 
 .tittle{
@@ -194,4 +194,12 @@ input{
 	.icon-symbol{
 		width:5rem;
 	}
+}
+
+.icon-symbol{
+	opacity:.5;
+}
+
+.icon-symbol:hover{
+	opacity:1;
 }
