@@ -22,15 +22,15 @@ figcaption{
 
 a,
 a:link {
-	color: #FFFFFF;
+	color: #7E7E7E;
 	text-decoration: none;
-	border-bottom:0.1em solid #FFFFFF;
+	border-bottom:0.1em solid #0000;
 	transition: all 200ms linear;
 }
 
 a:focus,
 a:hover{
-	color:#000000;
+	color:#fff;
 }
 
 a:hover,
