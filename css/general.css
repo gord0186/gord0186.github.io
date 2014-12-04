@@ -139,7 +139,6 @@ nav{
 	color:#152428;
 }
 
-
 /*About*/
 
 #about{	
@@ -155,13 +154,12 @@ nav{
 	background-size:cover;
 	height:20rem;
 	width:100%;
-	display:inline-block;
+	display:inline-block; 
 }
 
 /*Contact*/
 
 #contact{
-	background:rgba(32,102,116,);
 }
 
 #contact div, .send-btn{
