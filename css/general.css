@@ -62,6 +62,7 @@ nav{
 	position:fixed;
 	overflow:inherit;
 	width:100%;
+	z-index:1000;
 }
 
 .main{
@@ -112,6 +113,10 @@ nav{
 	font-size:40px;
 	font-weight:lighter;
 	color:#152428;
+}
+
+q{
+	padding:1rem;
 }
 
 @media only screen and (min-width: 23em){
@@ -208,8 +213,10 @@ input{
 
 .icon-symbol{
 	opacity:.5;
+	transition:all 250ms linear;
 }
 
 .icon-symbol:hover{
 	opacity:1;
+	transition:all 250ms linear;
 }
