@@ -65,6 +65,11 @@ img{
 
 }
 
+
+.card:hover img{
+	opacity:.5;
+}
+
 .img h3{
 	background: center no-repeat url(http://placehold.it/1000x500) #A9A9A9 ;
 	height:15rem;

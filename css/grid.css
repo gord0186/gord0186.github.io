@@ -277,7 +277,7 @@
 
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 75em) {
 
 .unit-l-hidden {
   display: none;
@@ -390,7 +390,7 @@
 
 }
 
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 100em) {
 
 .unit-xl-hidden {
   display: none;
