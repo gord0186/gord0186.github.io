@@ -90,7 +90,7 @@ nav{
 	display:inline-block;
 	border-bottom:none;
 	float:left;
-	padding: .3em;
+	padding: .5em;
 	margin:auto;
 	opacity:.5;
 	transition:all 250ms linear;
@@ -114,6 +114,8 @@ nav{
 	font-size:40px;
 	font-weight:lighter;
 	color:#152428;
+	text-align: center;
+	display: block;
 }
 
 q{

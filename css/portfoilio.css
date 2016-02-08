@@ -29,45 +29,40 @@ img{
 
 @media only screen and (min-width: 50em) {
 
-img{
-	display:block;
-	width:100%;
-}
+	img{
+		display:block;
+		width:100%;
+	}
 
-.card{
-	margin:0;
-	position:relative;
-	overflow:hidden;
-	animation: slide-up 2000ms linear;
-	
-	-ms-animation:slide-up 2000ms linear;
-	-moz-animation:slide-up 2000ms linear;
-	-o-animation:slide-up 2000ms linear;
-	
-	-webkit-animation: slide-up 2000ms linear;
-}
+	.card{
+		margin:0;
+		position:relative;
+		overflow:hidden;
+		animation: slide-up 2000ms linear;
+		
+		-ms-animation:slide-up 2000ms linear;
+		-moz-animation:slide-up 2000ms linear;
+		-o-animation:slide-up 2000ms linear;
+		
+		-webkit-animation: slide-up 2000ms linear;
+	}
 
-.card__text{
-	background-color: rgba(255,255,255,.70);
-	background-size:cover;
-	position:absolute;
-	bottom:-4em;
-	width:95%;
-	padding:1em;
-	opacity:0;
-	transition: all 250ms linear;
-}
+	.card__text{
+		background-color: rgba(255,255,255,.90);
+		background-size:cover;
+		position:absolute;
+		bottom:-4em;
+		width:95%;
+		padding:1em;
+		opacity:0;
+		transition: all 250ms linear;
+	}
 
-.card:hover .card__text{
-	opacity:1;
-	bottom:0;
-}
+	.card:hover .card__text{
+		opacity:1;
+		bottom:0;
+	}
 
-}
-
-
-.card:hover img{
-	opacity:.5;
 }
 
 .img h3{
