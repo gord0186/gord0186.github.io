@@ -34,12 +34,10 @@ nav{
 	display:inline-block;
 	padding:1rem .5rem;
 	float:right;
-	border-bottom:none;
 }
 
 .nav li:before{
 	content:none;
-	color:#FFF;
 	position:absolute;
 	left:-1.3em;
 }
@@ -58,7 +56,7 @@ nav{
 
 nav{
 	margin:auto;
-	background:rgba(0,0,0,1);
+	background:rgba(255,255,255,.9);
 	position:fixed;
 	overflow:inherit;
 	width:100%;
@@ -79,11 +77,6 @@ nav{
 	padding-top:4rem;
 	opacity: .9;
 }
-
-.small-logo:hover{
-	opacity:1;
-	transition: all 250ms linear;
-}
 	
 .small-logo{
 	width:3rem;
@@ -92,7 +85,6 @@ nav{
 	float:left;
 	padding: .5em;
 	margin:auto;
-	opacity:.5;
 	transition:all 250ms linear;
 }
 
