@@ -58,7 +58,7 @@ nav{
 
 nav{
 	margin:auto;
-	background:rgba(0,0,0,.80);
+	background:rgba(0,0,0,1);
 	position:fixed;
 	overflow:inherit;
 	width:100%;
@@ -73,9 +73,11 @@ nav{
 }
 
 .logo{
+	
 	margin:auto;
 	width:30%;
 	padding-top:4rem;
+	opacity: .9;
 }
 
 .small-logo:hover{
@@ -85,11 +87,10 @@ nav{
 	
 .small-logo{
 	width:3rem;
-	display:block;
+	display:inline-block;
 	border-bottom:none;
 	float:left;
-	padding-top:.5rem;
-	padding-bottom:.5rem;
+	padding: .3em;
 	margin:auto;
 	opacity:.5;
 	transition:all 250ms linear;
