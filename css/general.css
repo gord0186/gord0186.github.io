@@ -98,8 +98,8 @@ nav{
 	.logo{
 		width:15rem;
 	}
-	
 }
+
 /* quote */
 
 .quote{
@@ -145,15 +145,21 @@ q{
 	max-width:750px;
 	margin:auto;
 }
+
 .me{
 	width:100%;
 	background: no-repeat center url(../images/303346_468770679857795_1263383188_n.jpg);
 	background-size:cover;
-	height:20rem;
+	height:30em;
 	width:100%;
 	display:inline-block; 
 }
 
+@media only screen and (min-width: 75em){
+	.me{
+		height: 40em;
+	}
+}	
 /*Contact*/
 
 #contact{
