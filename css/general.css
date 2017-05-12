@@ -18,6 +18,11 @@ img{
 	padding:.5rem;
 }
 
+::selection{
+	color: #fff;
+    background-color: #222;
+}
+
 /* header*/
 
 
