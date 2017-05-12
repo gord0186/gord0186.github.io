@@ -22,12 +22,11 @@ img{
 
 
 
-@media only screen and (min-width: 23em){
+@media only screen and (min-width: 30em){
 nav{
     font-size: 1.2656rem;
     line-height: 1.1852;
 	width:100%;
-}
 
 }
 
@@ -38,6 +37,17 @@ nav{
 .nav li{
 	display:inline-block;
 	padding:1rem 1rem;
+	float:right;
+}
+
+
+}
+
+
+
+.nav li{
+	display:inline-block;
+	padding:1rem .5rem;
 	float:right;
 }
 
