@@ -42,7 +42,10 @@ a:focus{
 	outline:2px solid #FFFFFF; 	
 }
 
-
+::selection{
+	color: #fff;
+    background-color: #222;
+}
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
