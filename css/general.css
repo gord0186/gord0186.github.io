@@ -23,22 +23,22 @@ img{
 
 
 @media only screen and (min-width: 30em){
-nav{
-    font-size: 1.2656rem;
-    line-height: 1.1852;
-	width:100%;
+	nav{
+	    font-size: 1.2656rem;
+	    line-height: 1.1852;
+		width:100%;
 
-}
+	}
 
-.nav {
-	padding-right: 3em;
-}
+	.nav {
+		padding-right: 3em;
+	}
 
-.nav li{
-	display:inline-block;
-	padding:1rem 1rem;
-	float:right;
-}
+	.nav li{
+		display:inline-block;
+		padding:1rem 1rem;
+		float:right;
+	}
 
 
 }
