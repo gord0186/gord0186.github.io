@@ -2,7 +2,7 @@
   Designer & Developer: Rudy Gordon <info@rudygordon.ca>
   Site: http://rudygordon.ca
   GitHub: https://github.com/gord0186
-  Location: Ottawa, Canada
+  Location: Pembroke, ON, Canada
   
 Hosting:
 - hover.com <https://www.hover.com>
