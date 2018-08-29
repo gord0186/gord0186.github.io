@@ -15,6 +15,10 @@ html{
 	font-size: 2em
 }
 
+.error_tittle{
+	font-weight: bold;
+}
+
 /* work*/
 
 .work li:before{
