@@ -1,0 +1,57 @@
+<section id="work">
+
+	<div class="grid work work_wrapper">
+
+		{% for work in site.pages %}
+
+	 		{% if work.category == "work" %}
+
+				
+	 				
+
+			          	<div class=" unit father work_content {{work.size}}">
+
+			          			
+			          		<a href="{{site.baseurl}}{{work.url}}">	
+
+			            	<div style="background: #222 url('{{site.baseurl}}/images/{{work.image}}') no-repeat center center ; background-size: cover;" class=" work_front">
+			            	
+			            	</div>
+
+			           
+
+			            	
+
+			            	<div class="work_back">
+
+			            	
+
+			            		<h2 class="yotta work_border ">
+
+			            			<strong class="work_title">{{work.title}}<small class="work_small_tittle">({{work.meta}})</small></strong>
+
+				 				</h2>
+
+				 				<a class="work_btn" href="{{site.baseurl}}{{work.url}}">
+
+			 						<h2>More Info</h2>
+
+			 					</a>
+
+			 			
+
+				 			</div>
+
+				 			</a>
+
+			          	</div>
+
+		      	
+
+	      	{% endif %}
+		 		
+		 {% endfor %}
+
+	</div>
+
+</section>
